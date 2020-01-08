@@ -1,0 +1,17 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ], 
+  "core.filemode": [
+    "true"
+  ], 
+  "remote.origin.url": [
+    "ssh://sx10101553@gerrit6.huaqin.com:29418/manifest"
+  ], 
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ], 
+  "remote.origin.fetch": [
+    "+refs/heads/*:refs/remotes/origin/*"
+  ]
+}
